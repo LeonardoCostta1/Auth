@@ -17,4 +17,4 @@ const auth = new mongoose.Schema({
         default: Date.now
     }
 });
-mongoose.model("Auth",auth);
+mongoose.model('Auth',auth);
